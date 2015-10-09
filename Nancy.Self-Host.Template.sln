@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.Self-Host.Template", "src\Nancy.Self-Host.Template\Nancy.Self-Host.Template.csproj", "{D52C992A-3B2D-44AE-B3C6-0DEEE2FC82B6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6120B5A6-A2AF-4E81-B41B-4DBEDE800B72}"
@@ -9,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6120B5
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.Self-Host.Template.Specs", "src\Nancy.Self-Host.Template.Specs\Nancy.Self-Host.Template.Specs.csproj", "{147F6910-F716-4B72-B100-A32839ADDF59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +24,10 @@ Global
 		{D52C992A-3B2D-44AE-B3C6-0DEEE2FC82B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D52C992A-3B2D-44AE-B3C6-0DEEE2FC82B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D52C992A-3B2D-44AE-B3C6-0DEEE2FC82B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{147F6910-F716-4B72-B100-A32839ADDF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{147F6910-F716-4B72-B100-A32839ADDF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{147F6910-F716-4B72-B100-A32839ADDF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{147F6910-F716-4B72-B100-A32839ADDF59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
