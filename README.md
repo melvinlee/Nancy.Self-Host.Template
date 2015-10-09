@@ -1,4 +1,7 @@
-## Nancy Self-host Project Template
+# Nancy Self-host Project Template
+
+AppVeyor: [![Build status](https://ci.appveyor.com/api/projects/status/aq4try2ycet7yax5/branch/master?svg=true)](https://ci.appveyor.com/project/melvinlee/nancy-self-host-template/branch/master)
+
 
 ####Nancy + Self-host + Owin + SignalR
 
@@ -86,3 +89,5 @@
 	    
 	            }
 		  }
+		  
+		  
